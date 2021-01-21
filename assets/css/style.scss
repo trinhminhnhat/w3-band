@@ -9,6 +9,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.clear {
+    clear: both;
+}
+
 #main {
 
 }
@@ -162,6 +166,26 @@ html {
             line-height: 1.4;
         }
     }   
+
+    .member-list {
+        margin-top: 48px;
+    }
+
+    .member-item {
+        float: left;
+        width: calc(100% / 3);
+        text-align: center;
+    }
+
+    .member-name {
+        font-size: 15px;
+    }
+
+    .member-img {
+        margin-top: 5px;
+        width: 154px;
+        border-radius: 4px;
+    }
 }
 
 #footer {
