@@ -15,24 +15,63 @@ html {
   background-color: #000;
 }
 
+#nav {
+  list-style-type: none;
+}
+
 #nav li {
   display: inline-block;
+  position: relative;
+}
+
+#nav li:hover .sub-nav {
+  display: block;
 }
 
 #nav li a {
-  color: #fff;
   text-decoration: none;
   line-height: 46px;
   padding: 0 24px;
+  display: block;
 }
 
-#nav li:hover a {
+#nav > li:hover > a {
   color: #000;
   background-color: #ccc;
-  display: inline-block;
+}
+
+#nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
 }
 
 #nav .sub-nav {
   display: none;
+  position: absolute;
+  top: 100%;
+  min-width: 160px;
+  background-color: #fff;
+  list-style-type: none;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .sub-nav a {
+  color: #000;
+  padding: 0 12px;
+  line-height: 36px;
+}
+
+#nav .sub-nav li {
+  width: 100%;
+}
+
+#nav .sub-nav li:hover > a {
+  color: #000;
+  background-color: #ccc;
+}
+
+#slider {
+  min-height: 500px;
 }
 /*# sourceMappingURL=style.css.map */
