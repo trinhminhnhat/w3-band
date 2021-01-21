@@ -18,30 +18,73 @@ html {
     background-color: #000;
 }
 
+
 #nav {
+    list-style-type: none;
+
     li {
         display: inline-block;
+        position: relative;
+
+        &:hover {
+            .sub-nav {
+                display: block;
+            }
+        }
+
         a {
-            color: #fff;
             text-decoration: none;
             line-height: 46px;
             padding: 0 24px;
+            display: block;
+        }
+    }
+
+    > li {
+        &:hover {
+            > a {
+                color: #000;
+                background-color: #ccc;
+            }
+           
+           
         }
 
-        &:hover a {
-            color: #000;
-            background-color: #ccc;
-            display: inline-block;
+        > a {
+            color: #fff;
+            text-transform: uppercase;
         }
     }
 
     .sub-nav {
         display: none;
+        position: absolute;
+        top: 100%;
+        min-width: 160px;
+        background-color: #fff;
+        list-style-type: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+        a {
+            color: #000;
+            padding: 0 12px;
+            line-height: 36px;
+        }
+
+        li {
+            width: 100%;
+
+            &:hover > a {
+                color: #000;
+                background-color: #ccc;
+            }
+        }
     }
 }
 
 #slider {
-
+    min-height: 500px;
+    // background-color: #333;
 }
 
 #content {
