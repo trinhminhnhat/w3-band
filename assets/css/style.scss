@@ -16,10 +16,27 @@ html {
 #header {
     height: 46px;
     background-color: #000;
+
+    .search-btn {
+        float: right;
+        padding: 0 21px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #f44336;
+        }
+
+        .search-icon {
+            color: #fff;
+            font-size: 20px;
+            line-height: 46px;
+        }
+    }
 }
 
 
 #nav {
+    display: inline-block;
     list-style-type: none;
 
     li {
@@ -79,6 +96,10 @@ html {
                 background-color: #ccc;
             }
         }
+    }
+
+    .nav-arrow-down {
+        font-size: 12px;
     }
 }
 
