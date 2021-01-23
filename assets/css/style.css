@@ -217,4 +217,57 @@ html {
   line-height: 24px;
   margin-top: -3px;
 }
+
+.place-list {
+  margin: 32px -8px 48px;
+}
+
+.place-list .place-item {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 8px;
+}
+
+.place-list .place-item .place-img {
+  display: block;
+  width: 100%;
+}
+
+.place-list .place-item .place-img:hover {
+  opacity: .6;
+}
+
+.place-list .place-item .place-content {
+  background-color: #fff;
+  padding: 16px;
+  font-size: 15px;
+}
+
+.place-list .place-item .place-heading {
+  font-size: 15px;
+}
+
+.place-list .place-item .place-date {
+  margin-top: 15px;
+  color: #757575;
+}
+
+.place-list .place-item .place-desc {
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+.place-list .place-item .place-buy-btn {
+  color: #fff;
+  display: inline-block;
+  background-color: #000;
+  margin-top: 15px;
+  text-decoration: none;
+  padding: 11px 31px;
+}
+
+.place-list .place-item .place-buy-btn:hover {
+  color: #000;
+  background-color: #ccc;
+}
 /*# sourceMappingURL=style.css.map */

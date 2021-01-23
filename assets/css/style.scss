@@ -196,6 +196,7 @@ html {
     background-color: #000;
 }
 
+// Tickets
 .ticket-list {
     margin-top: 36px;
     background-color: #fff;
@@ -227,6 +228,61 @@ html {
         margin-top: -3px;
     }
 }
+
+// Places
+.place-list {
+    margin: 32px -8px 48px;
+
+    .place-item {
+        float: left;
+        width: calc(100% / 3);
+        padding: 0 8px;
+
+        .place-img {
+            display: block;
+            width: 100%;
+
+            &:hover {
+                opacity: .6;
+            }
+        }
+        
+        .place-content {
+            background-color: #fff;
+            padding: 16px;
+            font-size: 15px;
+        }
+        
+        .place-heading {
+            font-size: 15px;
+        }
+        
+        .place-date {
+            margin-top: 15px;
+            color: #757575;
+        }
+        
+        .place-desc {
+            margin-top: 15px;
+            line-height: 1.4;
+        }
+        
+        .place-buy-btn {
+            color: #fff;
+            display: inline-block;
+            background-color: #000;
+            margin-top: 15px;
+            text-decoration: none;
+            padding: 11px 31px;
+
+            &:hover {
+                color: #000;
+                background-color: #ccc;
+            }
+        }
+    }
+}
+
 
 #footer {
 
