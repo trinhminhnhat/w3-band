@@ -59,6 +59,25 @@ html {
   margin-top: 16px !important;
 }
 
+.btn {
+  border: none;
+  color: #fff;
+  display: inline-block;
+  background-color: #000;
+  text-decoration: none;
+  padding: 10px 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #ccc;
+}
+
+.pull-right {
+  float: right !important;
+}
+
 #header {
   height: 46px;
   background-color: #000;
@@ -175,7 +194,7 @@ html {
 
 #content .content-section {
   width: 800px;
-  padding: 64px 0;
+  padding: 64px 0 112px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -255,7 +274,6 @@ html {
 
 .place-list {
   margin-top: 32px;
-  margin-bottom: 48px;
 }
 
 .place-list .place-img {
@@ -287,20 +305,6 @@ html {
   line-height: 1.4;
 }
 
-.place-list .place-buy-btn {
-  color: #fff;
-  display: inline-block;
-  background-color: #000;
-  margin-top: 15px;
-  text-decoration: none;
-  padding: 11px 31px;
-}
-
-.place-list .place-buy-btn:hover {
-  color: #000;
-  background-color: #ccc;
-}
-
 .contact-content {
   margin-top: 48px;
 }
@@ -325,17 +329,34 @@ html {
   width: 100%;
 }
 
-.contact-content .contact-form .form-submit-btn {
-  background-color: #000;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  padding: 10px 20px;
-  float: right;
+.map-section img {
+  width: 100%;
 }
 
-.contact-content .contact-form .form-submit-btn:hover {
-  background-color: #ccc;
-  color: #000;
+#footer {
+  padding: 64px 16px;
+  text-align: center;
+}
+
+#footer .social-list {
+  font-size: 24px;
+}
+
+#footer .social-list a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+#footer .social-list a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copy-right {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+}
+
+#footer .copy-right a {
+  color: rgba(0, 0, 0, 0.6);
 }
 /*# sourceMappingURL=style.css.map */
