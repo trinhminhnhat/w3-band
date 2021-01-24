@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+  #nav li {
+    display: block;
+  }
+  #header .search-btn {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

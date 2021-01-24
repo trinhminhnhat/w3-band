@@ -91,6 +91,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    overflow: hidden;
     z-index: 1;
 
     .search-btn {
@@ -108,8 +109,26 @@ html {
             line-height: 46px;
         }
     }
-}
 
+    .mobile-menu-btn {
+        float: right;
+        padding: 0 21px;
+
+        &:hover {
+            background-color: #ccc;
+
+            .menu-icon {
+                color: #000;
+            }
+        }
+
+        .menu-icon {
+            color: #fff;
+            font-size: 20px;
+            line-height: 46px;
+        }
+    }
+}
 
 #nav {
     display: inline-block;
