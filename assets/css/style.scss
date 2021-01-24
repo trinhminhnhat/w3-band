@@ -9,6 +9,26 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+// Common
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33333%;
+}
+
 .clear {
     clear: both;
 }
@@ -17,6 +37,11 @@ html {
     color: #fff !important;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+// Main
 #main {
 
 }
@@ -175,12 +200,6 @@ html {
         margin-top: 48px;
     }
 
-    .member-item {
-        float: left;
-        width: calc(100% / 3);
-        text-align: center;
-    }
-
     .member-name {
         font-size: 15px;
     }
@@ -231,54 +250,49 @@ html {
 
 // Places
 .place-list {
-    margin: 32px -8px 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 
-    .place-item {
-        float: left;
-        width: calc(100% / 3);
-        padding: 0 8px;
+    .place-img {
+        display: block;
+        width: 100%;
 
-        .place-img {
-            display: block;
-            width: 100%;
+        &:hover {
+            opacity: .6;
+        }
+    }
+    
+    .place-content {
+        background-color: #fff;
+        padding: 16px;
+        font-size: 15px;
+    }
+    
+    .place-heading {
+        font-size: 15px;
+    }
+    
+    .place-date {
+        margin-top: 15px;
+        color: #757575;
+    }
+    
+    .place-desc {
+        margin-top: 15px;
+        line-height: 1.4;
+    }
+    
+    .place-buy-btn {
+        color: #fff;
+        display: inline-block;
+        background-color: #000;
+        margin-top: 15px;
+        text-decoration: none;
+        padding: 11px 31px;
 
-            &:hover {
-                opacity: .6;
-            }
-        }
-        
-        .place-content {
-            background-color: #fff;
-            padding: 16px;
-            font-size: 15px;
-        }
-        
-        .place-heading {
-            font-size: 15px;
-        }
-        
-        .place-date {
-            margin-top: 15px;
-            color: #757575;
-        }
-        
-        .place-desc {
-            margin-top: 15px;
-            line-height: 1.4;
-        }
-        
-        .place-buy-btn {
-            color: #fff;
-            display: inline-block;
-            background-color: #000;
-            margin-top: 15px;
-            text-decoration: none;
-            padding: 11px 31px;
-
-            &:hover {
-                color: #000;
-                background-color: #ccc;
-            }
+        &:hover {
+            color: #000;
+            background-color: #ccc;
         }
     }
 }
