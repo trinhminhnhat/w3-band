@@ -13,6 +13,12 @@ html {
 .row {
     margin-left: -8px;
     margin-right: -8px;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 
 .col {
@@ -29,6 +35,10 @@ html {
     width: 33.33333%;
 }
 
+.col-12 {
+    width: 100%;
+}
+
 .clear {
     clear: both;
 }
@@ -39,6 +49,14 @@ html {
 
 .text-center {
     text-align: center !important;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
 }
 
 // Main
@@ -297,6 +315,44 @@ html {
     }
 }
 
+// Contact
+.contact-content {
+    margin-top: 48px;
+
+    .contact-info {
+        font-size: 18px;
+        line-height: 1.5;
+
+        i[class^="ti-"] {
+            display: inline-block;
+            width: 30px;
+        }
+    }
+
+    .contact-form {
+        font-size: 15px;
+
+        .form-control {
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
+
+        .form-submit-btn {
+            background-color: #000;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 20px;
+            float: right;
+
+            &:hover {
+                background-color: #ccc;
+                color: #000;
+            }
+        }
+    }
+}
 
 #footer {
 
