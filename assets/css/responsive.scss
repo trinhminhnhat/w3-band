@@ -11,12 +11,25 @@
 // Mobile
 @media (max-width: 767px) {
     #nav {
+        display: block;
+
         li {
+            display: block;
+
+            &:first-child {
+                display: inline-block;
+            }
+        }
+    }
+
+    #header  {
+        .search-btn {
+            display: none;
+        }
+
+        .mobile-menu-btn {
             display: block;
         }
     }
 
-    #header .search-btn {
-        display: none;
-    }
 }
