@@ -355,6 +355,15 @@ html {
         font-size: 18px;
         line-height: 1.5;
 
+        a {
+            color: #101aef;
+            opacity: 0.6;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
         i[class^="ti-"] {
             display: inline-block;
             width: 30px;
