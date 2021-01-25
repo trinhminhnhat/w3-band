@@ -60,12 +60,17 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .btn {
     border: none;
     color: #fff;
     display: inline-block;
     background-color: #000;
     text-decoration: none;
+    text-align: center;
     padding: 10px 16px;
 
     &:hover {

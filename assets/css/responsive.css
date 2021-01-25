@@ -1,4 +1,8 @@
 @media (max-width: 767px) {
+  .mt-sm-8 {
+    margin-top: 8px !important;
+  }
+  .w-sm-100,
   .col-sm-12 {
     width: 100%;
   }
@@ -33,5 +37,8 @@
   }
   #content .member-img {
     width: 60%;
+  }
+  .contact-content .contact-form {
+    margin-top: 16px;
   }
 }
