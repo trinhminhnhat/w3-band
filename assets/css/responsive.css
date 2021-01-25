@@ -1,4 +1,7 @@
 @media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
   #nav {
     display: block;
   }
@@ -27,5 +30,8 @@
   #nav .sub-nav a {
     color: #fff;
     padding: 6px 42px;
+  }
+  #content .member-img {
+    width: 60%;
   }
 }
