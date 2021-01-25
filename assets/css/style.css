@@ -72,6 +72,10 @@ html {
   text-decoration: none;
   text-align: center;
   padding: 10px 16px;
+  font-size: 15px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .btn:hover {
@@ -217,6 +221,7 @@ html {
 }
 
 #slider .text-content .text-description {
+  text-shadow: 0 0 1px #000;
   font-size: 15px;
 }
 
@@ -362,6 +367,7 @@ html {
 }
 
 .contact-content .contact-form .form-control {
+  font-size: 16px;
   padding: 10px;
   border: 1px solid #ccc;
   width: 100%;

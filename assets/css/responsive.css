@@ -1,4 +1,4 @@
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
   .btn {
     padding: 15px 16px;
   }
@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 47.9375em) {
   .mt-sm-8 {
     margin-top: 8px !important;
   }
