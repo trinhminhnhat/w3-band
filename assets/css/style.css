@@ -107,8 +107,11 @@ html {
 }
 
 #header .mobile-menu-btn {
-  float: right;
+  display: none;
   padding: 0 21px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #header .mobile-menu-btn:hover {
@@ -383,4 +386,3 @@ html {
 #footer .copy-right a {
   color: rgba(0, 0, 0, 0.6);
 }
-/*# sourceMappingURL=style.css.map */
