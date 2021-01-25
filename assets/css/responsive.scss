@@ -10,6 +10,10 @@
 
 // Mobile
 @media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+
     #nav {
         display: block;
 
@@ -38,7 +42,7 @@
         li a {
             padding: 1px 24px;
         }
-        
+
         .sub-nav {
             position: initial;
             background-color: #333;
@@ -47,6 +51,12 @@
                 color: #fff;
                 padding: 6px 42px;
             }
+        }
+    }
+
+    #content {
+        .member-img {
+            width: 60%;
         }
     }
 }
