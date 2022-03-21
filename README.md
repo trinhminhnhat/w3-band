@@ -10,4 +10,7 @@ Build the band website according to the template set by W3schools
 [**https://trinhminhnhat.github.io/w3-band/**](https://trinhminhnhat.github.io/w3-band/)
    
 ## Author
-[**Trinh Minh Nhat**](https://github.com/trinhminhnhat)
+[**Trịnh Minh Nhật**](https://github.com/trinhminhnhat)
+
+## References
+[**https://fullstack.edu.vn/**](https://fullstack.edu.vn/)
